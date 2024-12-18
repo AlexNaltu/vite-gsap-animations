@@ -1,8 +1,11 @@
 import React from "react";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <div className="text-5xl text-orange-500 font-bold">Welcome to awards</div>
+    <div className="text-5xl text-violet-300 font-bold font-robert-medium">
+      <Hero />
+    </div>
   );
 };
 
